@@ -14,7 +14,7 @@ A PHP-based food ordering system for educational institutions.
 ## Requirements
 - PHP 7.4+
 - MySQL 5.7+
-- Web server (Apache/Nginx)
+- Web server (phpMyAdmin)
 
 ## Installation
 1. Clone repository to web root
