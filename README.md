@@ -18,6 +18,6 @@ WENTWORTHCANTEEN is an online canteen food ordering and management system based 
 
 ## Footnote
 - Food and shop images are included in the `img` folder.
-- To install the system, download and install **WAMP Server**, download this repository, and place it in the directory `C:/wamp64/www/`. Import the database and name it `wentworth_canteen` in phpMyAdmin (http://localhost/phpmyadmin) using the file `wentworth_canteen.sql`. Start Apache and MySQL services from the WAMP Server control panel, then run and access the system using a web browser at (http://localhost/WentworthCanteen).
+- To install the system, download and install **WAMP Server**, download this repository, and place it in the directory `C:/wamp64/www/`. Import the database and name it `wentworth_canteen` in phpMyAdmin (http://localhost/phpmyadmin) using the file `wentworthcanteen.sql`. Start Apache and MySQL services from the WAMP Server control panel, then run and access the system using a web browser at (http://localhost/WentworthCanteen).
 - You can register for a customer account and log in. To log in with an admin account, press the "Log in with admin account" button on the login page.
 
