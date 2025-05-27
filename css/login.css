@@ -1,0 +1,68 @@
+/* General Body and HTML Setup */
+html,
+body {
+  height: 100%;
+  font-family: 'Poppins', 'Noto Sans Thai', sans-serif; /* Modern font styles */
+}
+
+body {
+  background-color: #f5f5f5; /* Light background color for a clean look */
+  padding-top: 4rem; /* Top padding for better spacing */
+  margin-bottom: -50px; /* Adjust bottom margin for proper footer placement */
+}
+
+/* Login Form Styling */
+.form-signin {
+  width: 100%;
+  max-width: 375px; /* Center the login form */
+  padding: 15px;
+  margin: auto;
+}
+
+.reg-success, .reg-fail {
+  max-width: 400px !important; /* Ensure success or failure messages do not stretch too wide */
+}
+
+.form-signin .checkbox {
+  font-weight: 400; /* Standard weight for checkbox labels */
+}
+
+/* Placeholder Text Styling */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* Text Color and Size Adjustments */
+.text-white {
+  color: white; /* Ensure any text with this class is white */
+}
+
+.smaller-font {
+  font-size: smaller; /* Class for smaller text */
+}
+
+.xsmall-font {
+  font-size: x-small; /* Extra small text for certain elements */
+}
+
+.bold-text {
+  font-weight: 600; /* Make text bold */
+}
+
+.reg-text {
+  font-weight: 400; /* Standard weight for regular text */
+}
+
+/* Rounded Borders */
+.rounded-25 {
+  border-radius: 25px; /* Rounded corners for cleaner buttons */
+}
+
+/* Restricted Area */
+.restricted {
+  max-width: 500px !important; /* Restrict form width for better readability */
+}

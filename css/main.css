@@ -1,0 +1,67 @@
+/* General Structure for Core Pages */
+html {
+    height: 100%; /* Ensures full height for the page */
+}
+
+body {
+    height: 100%;
+    padding-top: 4rem; /* Padding to avoid overlap with the fixed navbar */
+    margin-bottom: -50px; /* Adjust bottom margin for proper footer placement */
+    font-family: 'Poppins', 'Noto Sans Thai', sans-serif; /* Modern fonts for a clean look */
+}
+
+/* Styling for Links */
+a {
+    cursor: pointer; /* Makes links visually clickable */
+}
+
+/* Divider for Content Sections */
+.b-example-divider {
+    height: 3rem; /* Divider height */
+    background-color: rgba(0, 0, 0, .1); /* Light background color */
+    border: solid rgba(0, 0, 0, .15); /* Subtle border for the divider */
+    border-width: 1px 0; /* Border on top and bottom */
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15); /* Inner shadow effect */
+}
+
+/* Icon Styling */
+.bi {
+    vertical-align: -.125em; /* Fine-tuning icon vertical alignment */
+    fill: currentColor; /* Ensures the icon inherits the text color */
+}
+
+/* Text Color and Size Adjustments */
+.text-white {
+    color: white; /* Ensures any text with this class is white */
+}
+
+.smaller-font {
+    font-size: smaller; /* Class for smaller text */
+}
+
+.xsmall-font {
+    font-size: x-small; /* Extra small text for specific elements */
+}
+
+/* Font Weight Adjustments */
+.bold-text {
+    font-weight: 600; /* Bold text for emphasis */
+}
+
+.reg-text {
+    font-weight: 400; /* Standard weight for regular text */
+}
+
+/* Rounded Corners */
+.rounded-10 {
+    border-radius: 10px; /* Rounded corners with smaller radius */
+}
+
+.rounded-25 {
+    border-radius: 25px; /* Larger rounded corners for more modern elements */
+}
+
+/* Notification Bar */
+.notibar {
+    max-width: 450px; /* Restrict the width of notifications to avoid stretching */
+}

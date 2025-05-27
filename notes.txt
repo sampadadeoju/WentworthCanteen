@@ -1,0 +1,17 @@
+to run the website,
+1. unzip the folder and place it inside the www folder.
+2. go to phpmyadmin and create a database named wentworthcanteen.
+3. import the database wentworthcanteen.sql from the folder 
+4. access the website by going to link, localhost/wentworthcanteen/
+
+default users
+users: username, password
+        bipana, 12344321
+        akriti, 12344321
+        priya, 12344321
+        nirmal, 12344321
+        jaya, 87654321
+
+admin:
+username, password
+sampadmin, sampa@admin

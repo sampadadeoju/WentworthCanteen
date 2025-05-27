@@ -1,0 +1,8 @@
+/* Promo Banner Background */
+.promo-banner-bg {
+    background: #004b87 url('../img/banner.jpg') center top no-repeat; /* Wentworth's blue theme */
+    background-size: cover; /* Ensures the banner image covers the entire section */
+    background-position-x: center; /* Keeps the image centered horizontally */
+    background-clip: padding-box; /* Ensures no overlap with the border */
+    background-blend-mode: multiply; /* Blends the background for better visibility of text over the banner */
+}

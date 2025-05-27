@@ -1,0 +1,41 @@
+/* Ensure body takes full height */
+html, body {
+    height: 100%;
+    font-family: 'Poppins', 'Noto Sans Thai', sans-serif; /* Wentworth's preferred fonts */
+}
+
+/* Style for the card images (menu items) */
+.card img {
+    width: 100%;
+    border-radius: 25px 25px 0 0; /* Rounded top corners for a cleaner look */
+    object-fit: cover; /* Ensures the image covers the card area nicely without distortion */
+}
+
+/* Remove the spin button in input fields of type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Styling for form inputs related to amount (for ordering) */
+.form-amount {
+    max-width: 375px;
+    margin: auto; /* Center form if necessary */
+    padding: 15px; /* Adds some padding around the form */
+}
+
+/* Cart CSS - Styling for small image in the cart */
+.image-parent {
+    max-width: 100px; /* Limit the size of product images in cart */
+    margin-right: 10px; /* Adds space between image and text */
+}
+
+/* Styling for datetime-local input (e.g., for scheduling orders) */
+input[type="datetime-local"] {
+    max-width: 250px;
+    border-radius: 10px; /* Smooth borders for inputs */
+    padding: 10px; /* Adds padding to the input field for better touch experience */
+    border: 1px solid #ccc; /* Light border color for inputs */
+    background-color: #f9f9f9; /* Light background color for the input fields */
+}
